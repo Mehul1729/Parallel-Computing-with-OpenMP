@@ -2,8 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>   // For fminf, sinf, cosf, logf, sqrtf  funcs 
-#include <omp.h>
+#include <math.h>   
 #include <time.h>   
 #include <string.h> // Added for sprintf (to create filenames)
 
