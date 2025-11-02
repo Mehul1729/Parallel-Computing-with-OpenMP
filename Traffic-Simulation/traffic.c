@@ -1,6 +1,5 @@
 // Multi-lane highway traffic simulation: Serial vs OpenMP vs Fake GPU
-#define _POSIX_C_SOURCE 200809L  // <-- ADD THIS LINE
-
+#define _POSIX_C_SOURCE 200809L  
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -38,7 +37,7 @@ static int rand_r(unsigned int *seedp)
 #define N VEHICLES
 
 typedef struct {
-    int id; // umber plate 
+    int id; // Number plate 
     int lane;       // lane index 
     float pos;       //  psoitionon the lane 
     float vel;      // current velocty
